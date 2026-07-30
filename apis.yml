@@ -1,9 +1,30 @@
 aid: afori
 name: Afori
-description: 'Afori is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Afori is a Barcelona- and Germany-based insurtech building an AI software platform designed
+  specifically for insurance brokers (Versicherungsmakler). Its first product is an AI Sidebar that
+  lives inside Microsoft Outlook and broker management systems (Maklerverwaltungsprogramme), turning
+  unstructured emails and documents into structured, review-ready cases with tasks and reminders,
+  context-aware email drafts, and prefilled claim notifications. Specialized AI agents (KI-Helfer)
+  automate insurance-specific back-office work while keeping every action documented and auditable.
+  The platform is EU-hosted, GDPR (DSGVO) compliant, ISO 27001:2022 certified, and built within the
+  European regulatory framework (IDD, EU AI Act). Founded in 2025 by former wefox leaders Fabian
+  Wesemann (CEO) and Sergi Banos (CTO), Afori raised a EUR 4M round led by General Catalyst. This
+  API Evangelist profile was created as a portfolio-lead stub and enriched from Afori's public web
+  surface; the company currently publishes no developer API, SDKs, or OpenAPI.
 url: https://raw.githubusercontent.com/api-evangelist/afori/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/iSf0c4Oa5yzis5Qo4PsvxfXKbFM.png
 x-type: company
 x-source: general-catalyst-portfolio
 x-tier: stub
@@ -14,9 +35,42 @@ modified: '2026-07-17'
 tags:
 - Company
 - Fintech
+- Insurtech
+- Insurance
+- Artificial Intelligence
+- AI Agents
+- Brokers
+- Back Office Automation
+- Germany
 apis: []
+common:
+- type: Website
+  url: https://www.afori.com/en/
+- type: Blog
+  url: https://www.afori.com/en/ressourcen/blog
+- type: PrivacyPolicy
+  url: https://www.afori.com/en/privacy-policy
+- type: TermsOfService
+  url: https://www.afori.com/en/terms-and-conditions
+- type: Login
+  url: https://app.afori.com/
+- type: LLMsTxt
+  url: llms/afori-llms.txt
+- type: WellKnown
+  url: well-known/afori-well-known.yml
+- type: TrustCenter
+  url: security/afori-trust-center.yml
+- type: Compliance
+  url: security/afori-trust-center.yml
+- type: DomainSecurity
+  url: security/afori-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
