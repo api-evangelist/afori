@@ -1,0 +1,26 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.afori.com/en/plattform/sicherheit
+also_evidenced_by: https://www.afori.com/llms.txt
+url: https://www.afori.com/en/plattform/sicherheit
+certifications:
+- ISO 27001:2022
+compliance:
+- GDPR (DSGVO)
+- EU AI Act (alignment claimed)
+- IDD (Insurance Distribution Directive alignment claimed)
+posture:
+  hosting: EU / Germany data centers
+  encryption: end-to-end encryption of transmissions claimed
+  auditability: every AI-agent action documented and auditable
+  audits: regular security audits claimed
+evidence:
+- source: https://www.afori.com/en/plattform/sicherheit
+  keywords: [iso 27001:2022, gdpr, eu hosting, end-to-end encryption]
+- source: https://www.afori.com/llms.txt
+  keywords: [iso 27001:2022 certified, dsgvo-compliant, eu-hosted]
+notes: >-
+  Afori publishes a Security & Compliance page naming ISO 27001:2022 certification, GDPR/DSGVO
+  compliance, EU/Germany hosting, and end-to-end encryption. No dedicated trust.afori.com portal,
+  bug-bounty program, or downloadable audit reports were found. Certification is a self-published
+  claim; not independently verified here.

@@ -1,0 +1,22 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of https://www.afori.com/.well-known/*
+host: https://www.afori.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 200
+  file: ../llms/afori-llms.txt
+notes: >-
+  Afori publishes an llms.txt (agent-facing site summary) at the web root but exposes no
+  RFC 9116 security.txt, OIDC/OAuth discovery, api-catalog, or ai-plugin.json. The company
+  ships no public developer API or authorization server at this time.
